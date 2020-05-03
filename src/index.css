@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+html {
+  font-family: 'Rubik Mono One', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.is-background {
+  background-color: #140D45;
+}
+
+.is-secondary {
+  color: #D0D059 !important;
+}
