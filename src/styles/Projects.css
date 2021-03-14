@@ -1,0 +1,59 @@
+.projects {
+    /* background: #edf2f4; */
+    perspective: 5000px;
+    transform-style: preserve-3d;
+}
+
+.mycard {
+    pointer-events: none;
+    border: 10px double #252525 ;
+    transform: translateZ(0);
+    padding: 30px;
+    background: rgb(29, 29, 29);
+    border-radius: 5px;
+    width: auto;
+    height: 300px;
+    margin: auto;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    display: flex;
+    position: relative;
+    /* -webkit-font-smoothing: subpixel-antialiased; */
+    /* transition: transform 1.2s ease-in-out */
+}
+
+/* .mycard:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    border-radius: 50%;
+    left: 0;
+    bottom: -50px;
+} */
+
+.mycard .mycard-content {
+    margin: auto;
+    text-align: center;
+    transform-style: preserve-3d;
+}
+
+.mycard-content .title {
+    transform: translateZ(50px);
+}
+
+.mycard-content .subtitle {
+    transform: translateZ(30px);
+}
+/* .mycard p {
+    transform: translateZ(50px);
+    display: block;
+    &.related {
+        transform: translateZ(80px);
+        font-style: italic;
+    }
+} */
+a {
+    color: #69c6b8;
+    pointer-events: auto;
+}

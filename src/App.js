@@ -1,45 +1,38 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
 import './index.css';
-import '@fortawesome/fontawesome-free'
-import logo from './Liftaris.png'
+// import './ass/style.scss';
+import '@fortawesome/fontawesome-free';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import Projects from './components/Projects'
+import {
+  Switch,
+  Route,
+  BrowserRouter as Router,
+} from "react-router-dom";
+import { useTransition } from 'react-spring'
 
 class App extends React.Component {
   render() {
     return (
       <div>
         <div className='hero is-background is-fullheight'>
-          <div className='hero-head'></div>
-          <div className='hero-body'>
-            <div className='container'>
-              <div className='columns is-vcentered'>
-                <div className='column is-4'>
-                  <p class="image">
-                    <img className='is-rounded' src={logo} alt='Octomunkulus' />
-                  </p>
-                </div>
-                <div className='column is-centered'>
-                  <h1 className='title is-secondary is-size-1'>Kaio Barbosa | Liftaris</h1>
-                  <div className='columns is-vcentered'>
-                    <div className='column is-1'>
-                      <a className='is-secondary' href='https://www.twitter.com/Liftaris1' target='blank'>Twitter</a>
-                    </div>
-                    <div className='column is-1'>
-                      <a className='is-secondary' href='https://www.github.com/kaiobarb' target='blank'>Github</a>
-                    </div>
-                    <div className='column is-1'>
-                      <a className='is-secondary' href='https://www.twitch.com/Liftaris' target='blank'>Twitch</a>
-                    </div>
-                    <div className='column is-5'>
-                      <a className='is-secondary is-pulled-right is-size-4' href='https://blog.liftaris.com'><b>Blog</b></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
+          <Router>
+            <div className='hero-head'></div>
+            <div className='hero-body'>
+              <Switch>
+                <Route exact path="/">
+                  <Home />
+                </Route>
+                <Route exact path="/projects">
+                  <Projects />
+                  {/* <div>Projects</div> */}
+                </Route>
+              </Switch>
             </div>
-          </div>
-          <div className='hero-foot'></div>
+            <Footer />
+          </Router>
         </div>
       </div>
     );
