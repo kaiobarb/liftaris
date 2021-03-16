@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
 import './index.css';
-// import './ass/style.scss';
 import '@fortawesome/fontawesome-free';
 import Footer from './components/Footer';
 import Home from './components/Home';
-import Projects from './components/Projects'
+import Projects from './components/Projects';
+import About from './components/About';
 import {
   Switch,
   Route,
@@ -27,7 +27,9 @@ class App extends React.Component {
                 </Route>
                 <Route exact path="/projects">
                   <Projects />
-                  {/* <div>Projects</div> */}
+                </Route>
+                <Route exact path="/about">
+                  <About />
                 </Route>
               </Switch>
             </div>

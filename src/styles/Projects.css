@@ -12,12 +12,13 @@
     background: rgb(29, 29, 29);
     border-radius: 5px;
     width: auto;
-    height: 300px;
+    height: 200px;
     margin: auto;
     transform-style: preserve-3d;
     backface-visibility: hidden;
     display: flex;
     position: relative;
+    box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.288);
     /* -webkit-font-smoothing: subpixel-antialiased; */
     /* transition: transform 1.2s ease-in-out */
 }

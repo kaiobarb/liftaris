@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 html {
   /* font-family: 'Rubik Mono One', sans-serif; */
-  font-family: 'Varela Round', sans-serif;
+  /* font-family: 'Varela Round', sans-serif; */
+  font-family: 'Roboto', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  font-family: 'Varela Round', sans-serif !important;
 }
 
 code {
@@ -19,6 +17,7 @@ code {
 
 .is-background {
   background-color: #140D45;
+  /* background-color: #272727; */
 }
 
 .is-secondary {

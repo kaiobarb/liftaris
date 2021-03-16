@@ -27,12 +27,7 @@ const Footer = () => {
                 </div>
                 <div className="navbar-item has-text-centered">
                     <div>
-                        <p className="title">ABOUT</p>
-                    </div>
-                </div>
-                <div className="navbar-item has-text-centered">
-                    <div>
-                        <p className="title">CONTACT</p>
+                        <Link to='/about' className="title">ABOUT</Link>
                     </div>
                 </div>
             </div>
