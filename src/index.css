@@ -8,6 +8,11 @@ html {
   font-family: 'Roboto', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+
+* {
+  color: #D0D059;
 }
 
 code {
@@ -17,7 +22,7 @@ code {
 
 .is-background {
   background-color: #140D45;
-  /* background-color: #272727; */
+  background-color: #087E8B
 }
 
 .is-secondary {

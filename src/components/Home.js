@@ -7,7 +7,7 @@ const Home = () => {
       <div className='columns is-vcentered'>
         <div className='column is-4'>
           <p class="image">
-            <img className='is-rounded' src={logo} alt='Octomunkulus' />
+            <img className='is-rounded' src={logo} style={{border:4+"px solid #D0D059"}} alt='Octomunkulus' />
           </p>
         </div>
         <div className='column is-centered'>
@@ -21,6 +21,9 @@ const Home = () => {
             </div>
             <div className='column is-1'>
               <a className='is-secondary' href='https://www.twitch.com/Liftaris' target='blank'>Twitch</a>
+            </div>
+            <div className='column is-1'>
+              <a className='is-secondary' href='https://liftaris.itch.io/' target='blank'>Itch.io</a>
             </div>
             <div className='column is-5'>
               <a className='is-secondary is-pulled-right is-size-4' href='https://blog.liftaris.com'><b>Blog</b></a>

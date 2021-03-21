@@ -1,8 +1,10 @@
 .footer {
     background-color: #140D45;
+    background-color: rgb(105, 105, 105);
 }
 
 .is-primary {
+    /* background-color: #140D45 !important; */
     background-color: #140D45 !important;
     border-top: 2px solid #D0D059;
 }
