@@ -22,7 +22,7 @@ code {
 
 .is-background {
   background-color: #140D45;
-  background-color: #087E8B
+  background-color: #087E8B;
 }
 
 .is-secondary {
@@ -35,4 +35,26 @@ code {
 
 .title {
   color: #D0D059 !important;
+}
+/* 
+.absolute {
+  width: 70%;
+  height: auto;
+  overflow: visible;
+  margin: auto;
+  position: absolute;
+  
+} */
+
+.to-back {
+  /* position: relative; */
+  /* z-index: -1; */
+}
+
+.particles {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  position:fixed;
+  top:0;
 }

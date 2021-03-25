@@ -76,7 +76,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="column is-2">
-                        <img className="avatar" src="https://s.gravatar.com/avatar/36bff6d2920237983fdc2e3bbe0d8cf9?s=200"></img>
+                        <img className="avatar" src="https://s.gravatar.com/avatar/36bff6d2920237983fdc2e3bbe0d8cf9?s=200" alt="Me"></img>
                     </div>
                 </div>
             </div>

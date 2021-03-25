@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "../Liftaris.png";
 
+
 const Home = () => {
   return (
     <div className='container'>
@@ -25,9 +26,9 @@ const Home = () => {
             <div className='column is-1'>
               <a className='is-secondary' href='https://liftaris.itch.io/' target='blank'>Itch.io</a>
             </div>
-            <div className='column is-5'>
+            {/* <div className='column is-5'>
               <a className='is-secondary is-pulled-right is-size-4' href='https://blog.liftaris.com'><b>Blog</b></a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
