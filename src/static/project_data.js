@@ -38,7 +38,7 @@ const projectData = [
         "name" : "Mystical Grove",
         "description" : "A VFX project made in Unity",
         "tags" : "HLSL Unity C#",
-        "image" : "https://imgur.com/mrNkp88.png",
+        "image" : "https://raw.githubusercontent.com/kaiobarb/mystical-grove/master/Screenshot.PNG",
         "url" : "https://github.com/kaiobarb/mystical-grove"
     },
     {
