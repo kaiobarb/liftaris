@@ -48,7 +48,9 @@ enableRobotsTXT = true
 
 [params]
     avatarURL = "images/avatar.png"
-
+    description = "My name is Kaio Barbosa-Chifan.\n\n I make games and do some web stuff."
+    # showPostsOnHomePage = "recent"
+    footer = "Kaio Barbosa-Chifan"
    #files = [ 
    #  ["Twitter","https://twitter.com/Liftaris1"],
    #  ["Github", "https://github.com/kaiobarb"],
